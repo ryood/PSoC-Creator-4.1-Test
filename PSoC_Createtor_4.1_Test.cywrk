@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CyXmlSerializer>
+<!--This file is machine generated and read. It is not intended to be edited by hand.-->
+<!--Due to this, there is no schema for this file.-->
+<CyGuid_2867d519-54d2-4c01-9830-c51cb08bc3dd type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWorkspaceSerialize" version="5" xml_contents_version="3" name="PSoC_Createtor_4.1_Test" persistent="PSoC_Createtor_4.1_Test.cywrk" platform="NOT_USED">
+<current_project name=".\MCP3008_UART_Test.cydsn\MCP3008_UART_Test.cyprj" />
+<wrkspc_folders />
+<files />
+<projects>
+<v>.\Test01.cydsn\Test01.cyprj</v>
+<v>.\SPI_Master_Test.cydsn\SPI_Master_Test.cyprj</v>
+<v>.\SPI_Master_Test_NoLCD.cydsn\SPI_Master_Test_NoLCD.cyprj</v>
+<v>.\MCP4922_Test.cydsn\MCP4922_Test.cyprj</v>
+<v>.\UART_Test.cydsn\UART_Test.cyprj</v>
+<v>.\MCP3008_UART_Test.cydsn\MCP3008_UART_Test.cyprj</v>
+</projects>
+<workspace_id v="813e8c62-7cff-47e1-b1a5-678bec8364bc" />
+<WriteAppVersionLastSavedWith v="4.1.0.2686" />
+<WriteAppMarketingVersionLastSavedWith v="4.1" />
+<CyGuid_dcbd9771-0334-43dc-9cc3-fe99dc3c5316 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWorkspaceSerialize+CyPrjDependencyList" version="4">
+<wrkspc_dependencies />
+</CyGuid_dcbd9771-0334-43dc-9cc3-fe99dc3c5316>
+<CyGuid_63b68103-67f5-4406-8da6-5c8625765b82 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWorkspaceSerialize+CyIgnoredSystemDepsList" version="1">
+<wrkspc_dependencies />
+</CyGuid_63b68103-67f5-4406-8da6-5c8625765b82>
+</CyGuid_2867d519-54d2-4c01-9830-c51cb08bc3dd>
+</CyXmlSerializer>

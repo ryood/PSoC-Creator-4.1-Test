@@ -1,0 +1,17 @@
+--------------- Build Started: 07/22/2017 14:52:10 Project: MCP3008_UART_Test, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
+cydsfit.exe -.appdatapath "C:\Users\gizmo\AppData\Local\Cypress Semiconductor\PSoC Creator\4.1" -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p D:\Users\gizmo\Documents\PSoC\PSoC_Createtor_4.1_Test\MCP3008_UART_Test.cydsn\MCP3008_UART_Test.cyprj -d CY8C5888LTQ-LP097 -s D:\Users\gizmo\Documents\PSoC\PSoC_Createtor_4.1_Test\MCP3008_UART_Test.cydsn\Generated_Source\PSoC5 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE
+Elaborating Design...
+ADD: sdb.M0018: error: Multiple drivers on signal "Net_2", bit(s) "0".
+ * D:\Users\gizmo\Documents\PSoC\PSoC_Createtor_4.1_Test\MCP3008_UART_Test.cydsn\TopDesign\TopDesign.cysch (Signal: Net_2)
+ * D:\Users\gizmo\Documents\PSoC\PSoC_Createtor_4.1_Test\MCP3008_UART_Test.cydsn\TopDesign\TopDesign.cysch (Shape_1.6)
+ * D:\Users\gizmo\Documents\PSoC\PSoC_Createtor_4.1_Test\MCP3008_UART_Test.cydsn\TopDesign\TopDesign.cysch (Shape_15.6)
+ * D:\Users\gizmo\Documents\PSoC\PSoC_Createtor_4.1_Test\MCP3008_UART_Test.cydsn\TopDesign\TopDesign.cysch (Shape_3.2)
+ * D:\Users\gizmo\Documents\PSoC\PSoC_Createtor_4.1_Test\MCP3008_UART_Test.cydsn\TopDesign\TopDesign.cysch (Shape_42)
+ * D:\Users\gizmo\Documents\PSoC\PSoC_Createtor_4.1_Test\MCP3008_UART_Test.cydsn\TopDesign\TopDesign.cysch (Shape_43)
+ * D:\Users\gizmo\Documents\PSoC\PSoC_Createtor_4.1_Test\MCP3008_UART_Test.cydsn\TopDesign\TopDesign.cysch (Shape_44)
+ * D:\Users\gizmo\Documents\PSoC\PSoC_Createtor_4.1_Test\MCP3008_UART_Test.cydsn\TopDesign\TopDesign.cysch (Shape_45)
+ADD: fit.M0032: warning: Clock Warning: (UART_IntClock's accuracy range '461.111 kHz +/- 7%, (428.833 kHz - 493.389 kHz)' is not within the specified tolerance range '460.8 kHz +/- 3.937%, (442.657 kHz - 478.943 kHz)'.).
+ * C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\UART_v2_50\UART_v2_50.cysch (Instance:IntClock)
+ * D:\Users\gizmo\Documents\PSoC\PSoC_Createtor_4.1_Test\MCP3008_UART_Test.cydsn\MCP3008_UART_Test.cydwr (UART_IntClock)
+Error: fit.M0050: The fitter aborted due to errors, please address all errors and rebuild. (App=cydsfit)
+--------------- Build Failed: 07/22/2017 14:52:14 ---------------
