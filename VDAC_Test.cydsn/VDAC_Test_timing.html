@@ -539,7 +539,7 @@ function getElementsByClass(rootNode, elemName, className)
 <tr> <td class="prop"> Project :</td>
 <td class="proptext"> VDAC_Test</td></tr>
 <tr> <td class="prop"> Build Time :</td>
-<td class="proptext"> 07/22/17 16:55:38</td></tr>
+<td class="proptext"> 07/23/17 13:14:24</td></tr>
 <tr> <td class="prop"> Device :</td>
 <td class="proptext"> CY8C5888LTQ-LP097</td></tr>
 <tr> <td class="prop"> Temperature :</td>
@@ -607,40 +607,48 @@ Clock Summary Section</span>
 <tr> 
  <td class = "text_info">CyIMO</td>
  <td class = "text_info">CyIMO</td>
- <td class = "number">3.000&nbsp;MHz</td>
- <td class = "number">3.000&nbsp;MHz</td>
+ <td class = "number">20.000&nbsp;MHz</td>
+ <td class = "number">20.000&nbsp;MHz</td>
  <td class = "number"> N/A </td>
  <td class = "text_info"> </td>
 </tr>
 <tr> 
  <td class = "text_info">CyMASTER_CLK</td>
  <td class = "text_info">CyMASTER_CLK</td>
- <td class = "number">24.000&nbsp;MHz</td>
- <td class = "number">24.000&nbsp;MHz</td>
+ <td class = "number">80.000&nbsp;MHz</td>
+ <td class = "number">80.000&nbsp;MHz</td>
  <td class = "number"> N/A </td>
  <td class = "text_info"> </td>
 </tr>
 <tr> 
  <td class = "text_info">CyBUS_CLK</td>
  <td class = "text_info">CyMASTER_CLK</td>
- <td class = "number">24.000&nbsp;MHz</td>
- <td class = "number">24.000&nbsp;MHz</td>
+ <td class = "number">80.000&nbsp;MHz</td>
+ <td class = "number">80.000&nbsp;MHz</td>
  <td class = "number"> N/A </td>
  <td class = "text_info"> </td>
 </tr>
 <tr> 
  <td class = "text_info">UART_IntClock</td>
  <td class = "text_info">CyMASTER_CLK</td>
- <td class = "number">461.538&nbsp;kHz</td>
- <td class = "number">461.538&nbsp;kHz</td>
+ <td class = "number">459.770&nbsp;kHz</td>
+ <td class = "number">459.770&nbsp;kHz</td>
  <td class = "number">57.104&nbsp;MHz</td>
  <td class = "text_info"></td>
 </tr>
 <tr> 
  <td class = "text_info">CyPLL_OUT</td>
  <td class = "text_info">CyPLL_OUT</td>
- <td class = "number">24.000&nbsp;MHz</td>
- <td class = "number">24.000&nbsp;MHz</td>
+ <td class = "number">80.000&nbsp;MHz</td>
+ <td class = "number">80.000&nbsp;MHz</td>
+ <td class = "number"> N/A </td>
+ <td class = "text_info"> </td>
+</tr>
+<tr> 
+ <td class = "text_info">CyXTAL</td>
+ <td class = "text_info">CyXTAL</td>
+ <td class = "number">20.000&nbsp;MHz</td>
+ <td class = "number">20.000&nbsp;MHz</td>
  <td class = "number"> N/A </td>
  <td class = "text_info"> </td>
 </tr>
@@ -664,15 +672,15 @@ Setup Subsection</span>
 <div>
 <a href="#" style="text-decoration: none; color: inherit;">
 <span class="sec_head"><span style="font-family: monospace;">+</span>
-Source Clock : UART_IntClock : Positive edge(Required Frequency 461.538&nbsp;kHz)</span>
+Source Clock : UART_IntClock : Positive edge(Required Frequency 459.77&nbsp;kHz)</span>
 </a>
 </div><div class="sta_secbody"><div class="sta_sec" >
 <div>
 <a href="#" style="text-decoration: none; color: inherit;">
 <span class="sec_head"><span style="font-family: monospace;">+</span>
-Destination Clock : UART_IntClock : Positive edge(Required Frequency 461.538&nbsp;kHz)</span>
+Destination Clock : UART_IntClock : Positive edge(Required Frequency 459.77&nbsp;kHz)</span>
 </a>
-</div><div class="sta_secbody"><div class="sta_sec_desc">Path Delay Requirement : 2166.67ns(461.538&nbsp;kHz)</div>
+</div><div class="sta_secbody"><div class="sta_sec_desc">Path Delay Requirement : 2175ns(459.77&nbsp;kHz)</div>
 <table class="sta_tscs">
  <thead> 
 <tr> 
@@ -690,7 +698,7 @@ Destination Clock : UART_IntClock : Positive edge(Required Frequency 461.538&nbs
  <td class = "text_info">\UART:BUART:sTX:sCLOCK:TxBitClkGen\/cs_addr_0</td>
  <td class = "number">57.104&nbsp;MHz</td>
  <td class = "number">17.512</td>
- <td class = "number">2149.155</td>
+ <td class = "number">2157.488</td>
  <td class = "text_info"></td>
 </tr>
 <tr class="sta_path">
@@ -771,7 +779,7 @@ Destination Clock : UART_IntClock : Positive edge(Required Frequency 461.538&nbs
  <td class = "text_info">\UART:BUART:sTX:sCLOCK:TxBitClkGen\/cs_addr_0</td>
  <td class = "number">60.194&nbsp;MHz</td>
  <td class = "number">16.613</td>
- <td class = "number">2150.054</td>
+ <td class = "number">2158.387</td>
  <td class = "text_info"></td>
 </tr>
 <tr class="sta_path">
@@ -852,7 +860,7 @@ Destination Clock : UART_IntClock : Positive edge(Required Frequency 461.538&nbs
  <td class = "text_info">\UART:BUART:sTX:sCLOCK:TxBitClkGen\/cs_addr_0</td>
  <td class = "number">61.881&nbsp;MHz</td>
  <td class = "number">16.160</td>
- <td class = "number">2150.507</td>
+ <td class = "number">2158.840</td>
  <td class = "text_info"></td>
 </tr>
 <tr class="sta_path">
@@ -933,7 +941,7 @@ Destination Clock : UART_IntClock : Positive edge(Required Frequency 461.538&nbs
  <td class = "text_info">\UART:BUART:sTX:sCLOCK:TxBitClkGen\/cs_addr_0</td>
  <td class = "number">65.699&nbsp;MHz</td>
  <td class = "number">15.221</td>
- <td class = "number">2151.446</td>
+ <td class = "number">2159.779</td>
  <td class = "text_info"></td>
 </tr>
 <tr class="sta_path">
@@ -1014,7 +1022,7 @@ Destination Clock : UART_IntClock : Positive edge(Required Frequency 461.538&nbs
  <td class = "text_info">\UART:BUART:sTX:TxSts\/status_0</td>
  <td class = "number">70.314&nbsp;MHz</td>
  <td class = "number">14.222</td>
- <td class = "number">2152.445</td>
+ <td class = "number">2160.778</td>
  <td class = "text_info"></td>
 </tr>
 <tr class="sta_path">
@@ -1095,7 +1103,7 @@ Destination Clock : UART_IntClock : Positive edge(Required Frequency 461.538&nbs
  <td class = "text_info">\UART:BUART:sTX:TxShifter:u0\/cs_addr_2</td>
  <td class = "number">81.427&nbsp;MHz</td>
  <td class = "number">12.281</td>
- <td class = "number">2154.386</td>
+ <td class = "number">2162.719</td>
  <td class = "text_info"></td>
 </tr>
 <tr class="sta_path">
@@ -1158,7 +1166,7 @@ Destination Clock : UART_IntClock : Positive edge(Required Frequency 461.538&nbs
  <td class = "text_info">\UART:BUART:tx_state_0\/main_3</td>
  <td class = "number">85.955&nbsp;MHz</td>
  <td class = "number">11.634</td>
- <td class = "number">2155.033</td>
+ <td class = "number">2163.366</td>
  <td class = "text_info"></td>
 </tr>
 <tr class="sta_path">
@@ -1221,7 +1229,7 @@ Destination Clock : UART_IntClock : Positive edge(Required Frequency 461.538&nbs
  <td class = "text_info">\UART:BUART:sTX:TxSts\/status_0</td>
  <td class = "number">87.367&nbsp;MHz</td>
  <td class = "number">11.446</td>
- <td class = "number">2155.221</td>
+ <td class = "number">2163.554</td>
  <td class = "text_info"></td>
 </tr>
 <tr class="sta_path">
@@ -1302,7 +1310,7 @@ Destination Clock : UART_IntClock : Positive edge(Required Frequency 461.538&nbs
  <td class = "text_info">\UART:BUART:sTX:TxSts\/status_0</td>
  <td class = "number">91.358&nbsp;MHz</td>
  <td class = "number">10.946</td>
- <td class = "number">2155.721</td>
+ <td class = "number">2164.054</td>
  <td class = "text_info"></td>
 </tr>
 <tr class="sta_path">
@@ -1383,7 +1391,7 @@ Destination Clock : UART_IntClock : Positive edge(Required Frequency 461.538&nbs
  <td class = "text_info">\UART:BUART:sTX:TxShifter:u0\/cs_addr_1</td>
  <td class = "number">92.047&nbsp;MHz</td>
  <td class = "number">10.864</td>
- <td class = "number">2155.803</td>
+ <td class = "number">2164.136</td>
  <td class = "text_info"></td>
 </tr>
 <tr class="sta_path">
