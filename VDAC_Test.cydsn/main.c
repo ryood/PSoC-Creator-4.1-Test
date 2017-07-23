@@ -11,13 +11,33 @@
 */
 #include "project.h"
 #include <stdio.h>
+#include <math.h>
 
 #define TITLE_STR1  ("VDAC Test")
-#define TITLE_STR2  ("20170722")
+#define TITLE_STR2  ("20170723")
+
+#define PI        (3.141592653589793238462)
+#define AMPLITUDE (1.0)    // x * 3.3V
+#define PHASE     (PI * 1) // 2*pi is one period
+#define RANGE     (0x7FFF)
+#define OFFSET    (0x7FFF)
+
+// Configuration for wave output
+#define BUFFER_SIZE (360)
+uint16_t buffer_sine[BUFFER_SIZE];
+
+char strBuffer[80];
+    
+// Create the wave buffer
+void calculate_sinewave(void){
+    for (int i = 0; i < BUFFER_SIZE; i++) {
+	    double rads = (PI * i)/180.0; // Convert degree in radian
+	    buffer_sine[i] = (uint16_t)(AMPLITUDE * (RANGE * (sin(rads + PHASE))) + OFFSET);
+    }
+}
 
 int main(void)
 {
-    char strBuffer[80];
     uint8_t cnt = 0;
     
     CyGlobalIntEnable; /* Enable global interrupts. */
@@ -35,6 +55,8 @@ int main(void)
     sprintf(strBuffer, "\r\n%s %s\r\n", TITLE_STR1, TITLE_STR2);
     UART_PutString(strBuffer);
 
+    calculate_sinewave();
+    
     for(;;)
     {
         /* Place your application code here. */
@@ -43,9 +65,17 @@ int main(void)
         UART_PutString(strBuffer);
         */
         
+        for (int i = 0; i < BUFFER_SIZE; i++) {
+            Pin_Check1_Write(1);
+            VDAC8_1_SetValue(buffer_sine[i] >> 8);
+            Pin_Check1_Write(0);
+        }
+        
+        /*
         Pin_Check1_Write(1);
         VDAC8_1_SetValue(cnt);
         Pin_Check1_Write(0);
+        */
         
         cnt++;
     }
