@@ -60,22 +60,11 @@ int main(void)
     for(;;)
     {
         /* Place your application code here. */
-        /*
-        sprintf(strBuffer, "%u\r\n", cnt);
-        UART_PutString(strBuffer);
-        */
-        
         for (int i = 0; i < BUFFER_SIZE; i++) {
             Pin_Check1_Write(1);
             VDAC8_1_SetValue(buffer_sine[i] >> 8);
             Pin_Check1_Write(0);
         }
-        
-        /*
-        Pin_Check1_Write(1);
-        VDAC8_1_SetValue(cnt);
-        Pin_Check1_Write(0);
-        */
         
         cnt++;
     }
