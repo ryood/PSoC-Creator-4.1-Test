@@ -14,7 +14,7 @@
 #include <math.h>
 
 #define TITLE_STR1  ("MCP4922 Test")
-#define TITLE_STR2  ("20170722")
+#define TITLE_STR2  ("20170723")
 
 #define PI        (3.141592653589793238462)
 #define AMPLITUDE (1.0)    // x * 3.3V

@@ -3,7 +3,7 @@
 <!--This file is machine generated and read. It is not intended to be edited by hand.-->
 <!--Due to this, there is no schema for this file.-->
 <CyGuid_2867d519-54d2-4c01-9830-c51cb08bc3dd type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWorkspaceSerialize" version="5" xml_contents_version="3" name="PSoC_Createtor_4.1_Test" persistent="PSoC_Createtor_4.1_Test.cywrk" platform="NOT_USED">
-<current_project name=".\MCP4922_Test.cydsn\MCP4922_Test.cyprj" />
+<current_project name=".\VDAC_Test.cydsn\VDAC_Test.cyprj" />
 <wrkspc_folders />
 <files />
 <projects>
@@ -13,6 +13,7 @@
 <v>.\MCP4922_Test.cydsn\MCP4922_Test.cyprj</v>
 <v>.\UART_Test.cydsn\UART_Test.cyprj</v>
 <v>.\MCP3008_UART_Test.cydsn\MCP3008_UART_Test.cyprj</v>
+<v>.\VDAC_Test.cydsn\VDAC_Test.cyprj</v>
 </projects>
 <workspace_id v="813e8c62-7cff-47e1-b1a5-678bec8364bc" />
 <WriteAppVersionLastSavedWith v="4.1.0.2686" />
