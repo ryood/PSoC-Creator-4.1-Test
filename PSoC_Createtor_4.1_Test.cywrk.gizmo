@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="PSoC_Createtor_4.1_Test\VDAC_Test\TopDesign">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="PSoC_Createtor_4.1_Test\MCP4922_Test\TopDesign">
 <ExpandedNodeIds>
 <v>PSoC_Createtor_4.1_Test</v>
 <v>PSoC_Createtor_4.1_Test\MCP3008_UART_Test\TopDesign</v>
@@ -524,9 +524,6 @@
 </CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
 <Unloaded />
 <OpenDocs>
-<name v=".\VDAC_Test.cydsn\main.c" />
-<name v=".\VDAC_Test.cydsn\TopDesign\TopDesign.cysch" />
-<name v=".\VDAC_Test.cydsn\VDAC_Test.cydwr" />
 <name v=".\MCP4922_Test.cydsn\TopDesign\TopDesign.cysch" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
@@ -535,7 +532,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="832, 617" SelectedTabbedMdiWindow="04b0c6af-9a31-4c37-a857-f6c3ebd5570d"><DocumentWindow Key="D:\Users\gizmo\Documents\PSoC\PSoC_Createtor_4.1_Test\VDAC_Test.cydsn\main.c" Guid="bf4ea3dd-ae76-46ae-8a7f-fdb9f64891df" /><DocumentWindow Key="D:\Users\gizmo\Documents\PSoC\PSoC_Createtor_4.1_Test\VDAC_Test.cydsn\TopDesign\TopDesign.cysch" Guid="8bf98bbc-14c8-4028-b6e2-0f90a2346914" /><DocumentWindow Key="D:\Users\gizmo\Documents\PSoC\PSoC_Createtor_4.1_Test\VDAC_Test.cydsn\VDAC_Test.cydwr" Guid="d5528836-e6a2-4ddc-8eaf-f99c9d103d70" /><DocumentWindow Key="D:\Users\gizmo\Documents\PSoC\PSoC_Createtor_4.1_Test\MCP4922_Test.cydsn\TopDesign\TopDesign.cysch" Guid="04b0c6af-9a31-4c37-a857-f6c3ebd5570d" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="832, 617" SelectedTabbedMdiWindow="416836a1-d156-4abb-a129-66cda5dad9d3"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="f18721a2-4d2e-4175-bcbb-000119ffda5a" /><DocumentWindow Key="D:\Users\gizmo\Documents\PSoC\PSoC_Createtor_4.1_Test\MCP4922_Test.cydsn\TopDesign\TopDesign.cysch" Guid="416836a1-d156-4abb-a129-66cda5dad9d3" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
